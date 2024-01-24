@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+/* Default styling for larger screens */
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* Text Align Justify */
+.justify-text{
+    text-align: justify;
+}
+
+/* About Me Section Margin + Padding */
+#Aboutme{
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.skill-column {
+    border: 1px solid black;
+}
+
+.column1 {
+    /* border: 1px solid black;     */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.skill-column {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Skill-Box {
+    display: block;
+}
+
+.Skill-Box:hover {
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: var(--light-bg-color);
+    transition: all 0.3s linear;
+
+}
+
+.Skill-Box>.img-class {
+    margin-top: 15px;
+}
+
+.Skill-Box>.text-class {
+    margin-top: 5px;
+}
+
+.img-class>img {
+    height: 150px;
+    width: 150px;
+}
+
+.fs-1 {
+    font-family: 'PT Serif', serif;
+}
