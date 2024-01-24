@@ -1,9 +1,39 @@
+
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
-/* Default styling for larger screens */
 .navbar-collapse {
     justify-content: flex-end;
 }
+body {
+	background: linear-gradient(-45deg, #ffffff, #ffffad, #eefbff);
+        overflow-x: hidden;
 
+        /* background-color: #cdcdcd; */
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100%;
+    /* color: white; */
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#Aboutme{
+    height: 100vh;
+}
+
+#Skills{
+    height: 100vh;
+    margin-top: 50px;
+}
 /* Text Align Justify */
 .justify-text{
     text-align: justify;
@@ -41,11 +71,11 @@
 }
 
 .Skill-Box:hover {
-    border: 1px solid black;
-    border-radius: 15px;
-    background-color: var(--light-bg-color);
+    /* padding: -1px;  */
+    background-color: #ffffff; /* bg-body-tertiary - Replace with the desired color */
+    border-radius: 25px; /* rounded */
     transition: all 0.3s linear;
-
+    color:black
 }
 
 .Skill-Box>.img-class {
