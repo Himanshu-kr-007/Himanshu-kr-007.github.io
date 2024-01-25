@@ -93,3 +93,8 @@ body {
 .fs-1 {
   font-family: "PT Serif", serif;
 }
+
+ a{
+  text-decoration: none;
+  color: red;
+}
