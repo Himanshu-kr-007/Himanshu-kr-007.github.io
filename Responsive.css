@@ -100,9 +100,10 @@ body {
 }
 
 /* Footer */
-
-
 footer > a > span{
   font-weight: 700;
 }
 
+.button-16{
+  font-size: 16px;
+}
