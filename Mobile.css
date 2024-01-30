@@ -4,6 +4,7 @@
     flex-direction: column;
   }
 
+
   #Aboutme,
   .col {
     width: 100%;
@@ -38,6 +39,10 @@
   .Certificate-Alignment > li {
     text-align: start;
     font-size: 16px;
+  }
+
+  .Tech-list > ul > li {
+    text-align: start ;
   }
 }
 
