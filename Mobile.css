@@ -1,4 +1,5 @@
 @media screen and (min-width: 300px) and (max-width: 900px) {
+
   #Aboutme,
   .row {
     flex-direction: column;
@@ -9,21 +10,26 @@
   .col {
     width: 100%;
     margin-top: 20px;
-    height: 100%; /* Adjust the margin as needed */
+    height: 100%;
+    /* Adjust the margin as needed */
   }
 
-  .profile-logo > img {
+  .profile-logo>img {
     width: 75%;
     margin: auto;
     margin-bottom: -20px;
   }
+
   #typing-container {
     margin-top: px;
   }
+
   #Skills {
     width: 100%;
-    height: 100%; /* Shrink to 50% width for smaller screens */
+    height: 100%;
+    /* Shrink to 50% width for smaller screens */
   }
+
   .skill-column {
     margin: auto;
     width: 75%;
@@ -33,19 +39,20 @@
     height: 200px;
   }
 
-  .Skill-Flex > .skill-column > .text-class > h5 {
+  .Skill-Flex>.skill-column>.text-class>h5 {
     font-size: 16px;
   }
-  .Certificate-Alignment > li {
+
+  .Certificate-Alignment>li {
     text-align: start;
     font-size: 16px;
   }
 
-  .Tech-list > ul > li {
-    text-align: left ;
+  .Tech-list>ul>li {
+    text-align: left;
   }
 
-  .display-5{
+  .display-5 {
     font-size: 18px;
   }
 }
@@ -60,9 +67,33 @@
     width: 100%;
     /* border: 1px solid black; */
   }
+
   .footer-li {
     /* border: 1px solid black; */
     position: relative;
     left: -25px;
+  }
+
+  .Project-Para{
+    font-size: calc(1.275rem + .3vw)!important;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 775px) {
+  .footer-ul {
+    width: 100%;
+    display: block;
+  }
+
+  .footer-ul>.footer-li {
+    top: -10px;
+    position: relative;
+    text-align: left;
+    left: -22px;
+    /* border: 1px solid black; */
+  }
+
+  .text-14 {
+    font-size: 14px;
   }
 }
