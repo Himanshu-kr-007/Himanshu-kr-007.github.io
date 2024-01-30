@@ -4,43 +4,41 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jenkins-Blogs Link</title>
+    <title>Terraform-Blogs Link</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="Responsive.css">
-    <link rel="stylesheet" href="Mobile.css">
-    <link rel="shortcut icon" href="./Images/Jenkins.png" type="image/x-icon">
-    <script src="/Portfolio/JS/Script.js"></script>
+    <link rel="stylesheet" href="../CSS/Responsive.css">
+    <link rel="stylesheet" href="../CSS/Mobile.css">
+    <link rel="shortcut icon" href="../Images/Terraform.png" type="image/x-icon">
+    <script src="Script.js"></script>
     <style>
-        .Jenkins-Link>div:hover {
+        .Terraform-Link>div:hover {
             border: 1px solid black;
             border-radius: 5px;
         }
 
-        .Jenkins-Link>div>a>div>div {
+        .Terraform-Link>div>a>div>div {
             width: 100%;
             display: block;
         }
-        .Jenkins-Para{
+
+        .Terraform-Para {
             text-align: justify;
             font-weight: 450;
         }
-        hr{
+
+        hr {
             color: rgba(0, 0, 0, 0.279);
         }
-        /* footer{
-            display: block;
-            position: relative;
-            bottom: -300px;
-        } */
 
         @media screen and (min-width: 320px) and (max-width: 900px) {
-            .Jenkins-Link{
+            .Terraform-Link {
                 /* border: 1px solid black; */
                 display: flex;
                 flex-direction: column;
             }
-            .Jenkins-Link>div{
+
+            .Terraform-Link>div {
                 /* border: 1px solid black; */
                 display: block;
                 width: 100vw;
@@ -52,75 +50,63 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <div class="navbar-brand">
-            <img src="./Images/Pray.png" alt="Logo" width="30" height="24"
-              class="d-inline-block align-text-top rounded-5 profile-img">
-            AATMA NAMASTE
-          </div>
-    
-          <!-- HamBurger Responsive
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button> -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-    
-          <!-- Navbar Links -->
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item p-2">
-                <a class="nav-link" href="./index.html#Aboutme">About Me</a>
-              </li>
-              <li class="nav-item p-2">
-                <a class="nav-link" href="./index.html#Skills">Skills</a>
-              </li>
-              <li class="nav-item p-2">
-                <a class="nav-link" href="./index.html#Certificates">Certificates</a>
-              </li>
-              <li class="nav-item p-2">
-                <a class="nav-link" href="./index.html#Projects">Projects</a>
-              </li>
-              <li class="nav-item p-2">
-                <a class="nav-link" href="#Contact">Contact Me</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+            <div class="navbar-brand">
+                <img src="../Images/Pray.png" alt="Logo" width="30" height="24"
+                    class="d-inline-block align-text-top rounded-5 profile-img">
+                AATMA NAMASTE
+            </div>
 
-    <!-- Projects -->
-    <div class="container mt-5 text-center" id="Projects">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="../index.html#Aboutme">About Me</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="../index.html#Skills">Skills</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="../index.html#Certificates">Certificates</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="../index.html#Projects">Projects</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="#Contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blogs -->
+    <div class="container mt-5 text-center" id="Blogs">
         <div class="row gap-2">
             <div class="col-sm-12 column1">
-                <p class="fs-1">Jenkins - Blogs </p>
+                <p class="fs-1">Terraform - Blogs </p>
             </div>
-            <div class="col-sm-12 Jenkins-Para">
-                <p class="fs-5"> If you're here to explore the world of automation and streamline your development processes, then you're in the right place. In my comprehensive document, I've covered a range of topics that are essential for anyone looking to leverage the power of Jenkins, a leading automation tool. From understanding the basics of Jenkins to setting up web servers automatically, delving into master-slave architecture both traditionally and with Docker, and deploying Java-Maven applications seamlessly, you'll find a wealth of knowledge here. Dive into the intricacies of Jenkins pipelines and discover the art of treating your pipelines as code for maximum efficiency and flexibility. Whether you're a beginner or an experienced developer, there's something valuable for everyone in this document. So, don't miss out on the opportunity to enhance your skills and elevate your automation game with Jenkins.</p>
+            <div class="col-sm-12 Terraform-Para">
+                <p class="fs-5"> If you're here to revolutionize your infrastructure management with Terraform, you're
+                    in the right place. Dive into my comprehensive document where I've meticulously covered a myriad of
+                    topics crucial for mastering Terraform. From understanding how to leverage modules effectively to
+                    orchestrating complex deployments with ease, and even delving into the intricacies of dynamic blocks
+                    and managing sensitive information securely, this document serves as your ultimate guide. Explore
+                    the power of Terraform's time-saving features like loops, conditionals, and functions, and learn how
+                    to craft robust, scalable infrastructure solutions. Whether you're a seasoned DevOps engineer or a
+                    curious newcomer, there's valuable insight waiting for you. Don't miss the chance to elevate your
+                    Terraform skills and streamline your workflow. Explore the document now and unlock the full
+                    potential of infrastructure as code.</p>
             </div>
             <hr>
-            <div class="row mb-1 Jenkins-Link text-start ">
+            <div class="row mb-1 Terraform-Link text-start ">
 
-                <div class="col-3  themed-grid-col">
-                    <a href="https://www.linkedin.com/posts/kumar--himanshu_jenkins-activity-7088496597075992576-WMd_?utm_source=share&utm_medium=member_desktop"
-                        target="_blank" class="list-group-item list-group-item-action d-flex gap-3 py-3" 
-                        aria-current="true">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
-                            class="bi bi-file-earmark" viewBox="0 0 16 16">
-                            <path
-                                d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z" />
-                        </svg>
-                        <div class="d-flex gap-1 w-100 justify-content-between">
-                            <div>
-                                <h6 class="mb-0 ">1. Jenkins Overview</h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-3  themed-grid-col">
-                    <a href="https://www.linkedin.com/posts/kumar--himanshu_jenkins-basics-activity-7098237313347915776-d13W?utm_source=share&utm_medium=member_desktop"
+                <div class="col-4  themed-grid-col">
+                    <a href="https://www.linkedin.com/posts/kumar--himanshu_terraform-aws-ec2-ebs-launch-connect-activity-7089627862546227200-LKVf?utm_source=share&utm_medium=member_desktop"
                         target="_blank" class="list-group-item list-group-item-action d-flex gap-3 py-3"
                         aria-current="true">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
@@ -130,13 +116,13 @@
                         </svg>
                         <div class="d-flex gap-1 w-100 justify-content-between">
                             <div>
-                                <h6 class="mb-0 ">2. Jenkins Basic</h6>
+                                <h6 class="mb-0 ">1. Terraform EC2 & EBS Launch</h6>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-3  themed-grid-col">
-                    <a href="https://www.linkedin.com/posts/kumar--himanshu_webserver-setup-by-automation-activity-7099298924632379392-bQZ_?utm_source=share&utm_medium=member_desktop"
+                <div class="col-4  themed-grid-col">
+                    <a href="https://www.linkedin.com/posts/kumar--himanshu_terraform-activity-7090621663343472640-Diub?utm_source=share&utm_medium=member_desktop"
                         target="_blank" class="list-group-item list-group-item-action d-flex gap-3 py-3"
                         aria-current="true">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
@@ -146,13 +132,13 @@
                         </svg>
                         <div class="d-flex gap-1 w-100 justify-content-between">
                             <div>
-                                <h6 class="mb-0 ">3. Webserver Setup by Automation</h6>
+                                <h6 class="mb-0 ">2. Streamlining Workflows with Terraform</h6>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-3  themed-grid-col">
-                    <a href="https://www.linkedin.com/posts/kumar--himanshu_master-slave-architecture-in-jenkins-activity-7099988973342629888-hNQe?utm_source=share&utm_medium=member_desktop"
+                <div class="col-4  themed-grid-col">
+                    <a href="https://www.linkedin.com/posts/kumar--himanshu_modules-data-source-activity-7092822348331913218-Xy1c?utm_source=share&utm_medium=member_desktop"
                         target="_blank" class="list-group-item list-group-item-action d-flex gap-3 py-3"
                         aria-current="true">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
@@ -162,13 +148,13 @@
                         </svg>
                         <div class="d-flex gap-1 w-100 justify-content-between">
                             <div>
-                                <h6 class="mb-0 ">4. Master Slave Architecture in Jenkins</h6>
+                                <h6 class="mb-0 ">3. Terrafrom Modules</h6>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-3  themed-grid-col">
-                    <a href="https://www.linkedin.com/posts/kumar--himanshu_master-slave-architecture-in-jenkins-using-activity-7101171425993981952-CaRZ?utm_source=share&utm_medium=member_desktop"
+                <div class="col-4  themed-grid-col">
+                    <a href="https://www.linkedin.com/posts/kumar--himanshu_terraform-activity-7093180944299302912-vq1l?utm_source=share&utm_medium=member_desktop"
                         target="_blank" class="list-group-item list-group-item-action d-flex gap-3 py-3"
                         aria-current="true">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
@@ -178,13 +164,13 @@
                         </svg>
                         <div class="d-flex gap-1 w-100 justify-content-between">
                             <div>
-                                <h6 class="mb-0 ">5. Master Slave Architecture in Jenkins Using Docker</h6>
+                                <h6 class="mb-0 ">4. Terraform Concepts - 1 </h6>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-3  themed-grid-col">
-                    <a href="https://www.linkedin.com/posts/kumar--himanshu_java-maven-app-deploy-activity-7100766448616128512-bkNN?utm_source=share&utm_medium=member_desktop"
+                <div class="col-4  themed-grid-col">
+                    <a href="https://www.linkedin.com/posts/kumar--himanshu_terraform-activity-7095679614210965506-QFR3?utm_source=share&utm_medium=member_desktop"
                         target="_blank" class="list-group-item list-group-item-action d-flex gap-3 py-3"
                         aria-current="true">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
@@ -194,55 +180,25 @@
                         </svg>
                         <div class="d-flex gap-1 w-100 justify-content-between">
                             <div>
-                                <h6 class="mb-0 ">6. Java - Maven App Deployment</h6>
+                                <h6 class="mb-0 ">5. Terraform Concepts - 2</h6>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-3  themed-grid-col">
-                    <a href="https://www.linkedin.com/posts/kumar--himanshu_jenkins-pipeline-activity-7102920482416422913-wZnc?utm_source=share&utm_medium=member_desktop"
-                        target="_blank" class="list-group-item list-group-item-action d-flex gap-3 py-3"
-                        aria-current="true">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
-                            class="bi bi-file-earmark" viewBox="0 0 16 16">
-                            <path
-                                d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z" />
-                        </svg>
-                        <div class="d-flex gap-1 w-100 justify-content-between">
-                            <div>
-                                <h6 class="mb-0 ">7. Jenkins Pipeline</h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-3  themed-grid-col">
-                    <a href="https://www.linkedin.com/posts/kumar--himanshu_end-to-end-pipeline-as-code-activity-7103383517580947458-vatk?utm_source=share&utm_medium=member_desktop"
-                        target="_blank" class="list-group-item list-group-item-action d-flex gap-3 py-3"
-                        aria-current="true">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
-                            class="bi bi-file-earmark" viewBox="0 0 16 16">
-                            <path
-                                d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z" />
-                        </svg>
-                        <div class="d-flex gap-1 w-100 justify-content-between">
-                            <div>
-                                <h6 class="mb-0 ">8. Jenkins Pipeleine as Code</h6>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+
             </div>
         </div>
     </div>
 
     <!-- Contact Me -->
 
+
     <div class="container" id="Contact">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <a href="https://himanshukumar.me/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
                 <span class="mb-3 mb-md-0 text-body-secondary">Himanshu Kumar</span>
             </a>
-  
+
             <ul class="nav col-md-8 justify-content-end footer-ul">
                 <li class="nav-item mx-4 footer-li"> <a class="text-body-secondary  text-decoration-none"
                         href="mailto:himanshukr0007@gmail.com">
@@ -276,6 +232,7 @@
             </ul>
         </footer>
     </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
