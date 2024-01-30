@@ -98,3 +98,26 @@ body {
   text-decoration: none;
   color: red;
 }
+
+/* Footer */
+
+
+footer > a > span{
+  font-weight: 700;
+}
+
+@media screen and (min-width: 320px) and (max-width: 775px) {
+  .footer-ul {
+      width: 100%;
+      display: block;
+  }
+
+  .footer-ul>.footer-li {
+    top: -10px;
+    position: relative;
+    text-align: left;
+    left: -22px;
+      /* border: 1px solid black; */
+  }
+
+}
