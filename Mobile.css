@@ -42,7 +42,11 @@
   }
 
   .Tech-list > ul > li {
-    text-align: start ;
+    text-align: left ;
+  }
+
+  .display-5{
+    font-size: 18px;
   }
 }
 
