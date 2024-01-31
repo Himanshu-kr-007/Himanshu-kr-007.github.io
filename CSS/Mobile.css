@@ -97,3 +97,20 @@
     font-size: 14px;
   }
 }
+
+
+
+/* Media queries for different screen sizes */
+@media screen and (max-width: 775px) {
+  /* Adjust iframe size for smaller screens */
+  .Docker-Video > iframe {
+      height: 360px; /* Adjusted height for smaller screens */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* Further adjust iframe size for even smaller screens */
+  .Docker-Video >  iframe {
+      height: 240px; /* Adjusted height for even smaller screens */
+  }
+}

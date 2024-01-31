@@ -108,3 +108,8 @@ footer > a > span{
   font-size: 16px;
 }
 
+/* Default styles For Video */
+.Docker-Video > iframe {
+  width: 100%; /* Make iframe responsive */
+  height: 480px; /* Default height */
+}
