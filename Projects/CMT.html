@@ -19,50 +19,62 @@
         dl>dd {
             text-align: justify;
         }
+
+        @media screen and (min-width: 320px) and (max-width: 775px) {
+
+            #Demo>div>div {
+                border: 1px solid black;
+            }
+
+            #Demo>div>div>iframe {
+                width: 100%;
+                height: 400px;
+            }
+        }
     </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <div class="navbar-brand">
-            <img src="../Images/Pray.png" alt="Logo" width="30" height="24"
-              class="d-inline-block align-text-top rounded-5 profile-img">
-            AATMA NAMASTE
-          </div>
-    
-          <!-- HamBurger Responsive
+            <div class="navbar-brand">
+                <img src="../Images/Pray.png" alt="Logo" width="30" height="24"
+                    class="d-inline-block align-text-top rounded-5 profile-img">
+                AATMA NAMASTE
+            </div>
+
+            <!-- HamBurger Responsive
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button> -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-    
-          <!-- Navbar Links -->
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item p-2">
-                <a class="nav-link" href="../index.html#Aboutme">About Me</a>
-              </li>
-              <li class="nav-item p-2">
-                <a class="nav-link" href="../index.html#Skills">Skills</a>
-              </li>
-              <li class="nav-item p-2">
-                <a class="nav-link" href="../index.html#Certificates">Certificates</a>
-              </li>
-              <li class="nav-item p-2">
-                <a class="nav-link" href="../index.html#Projects">Projects</a>
-              </li>
-              <li class="nav-item p-2">
-                <a class="nav-link" href="#Contact">Contact Me</a>
-              </li>
-            </ul>
-          </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="../index.html#Aboutme">About Me</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="../index.html#Skills">Skills</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="../index.html#Certificates">Certificates</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="../index.html#Projects">Projects</a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="nav-link" href="#Contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
     <!-- Project Section -->
     <div class="container text-center" id="Projects">
         <div class="row gap-3">
@@ -73,7 +85,8 @@
         <div class="p-5 mb-4 bg-body-tertiary rounded-3">
             <div class="container-fluid py-5">
                 <h1 class="display-5 fw-bold">Container Management Tool</h1>
-                <p class="col-md-12 text-14 Project-Para text-start">Empower users with seamless web application management through an
+                <p class="col-md-12 text-14 Project-Para text-start">Empower users with seamless web application
+                    management through an
                     intuitive interface crafted with HTML, CSS, and JavaScript. Leveraging Docker Container Management
                     Tools, this solution integrates Linux and Container Command platforms, streamlining operations for
                     enhanced efficiency and control.</p>
@@ -139,6 +152,14 @@
             </div>
         </div>
     </div>
+        <!-- Demo Section -->
+        <div class="container  py-4" id="Demo">
+            <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+                <div class="container-fluid py-5">
+                    <iframe src="https://drive.google.com/file/d/151aJKxVKLKGOasy5LJmtmC8pPWaggf3X/preview" title="YouTube video" width="100%" height="480px" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
     <!-- Contact Me -->
 
     <div class="container" id="Contact">

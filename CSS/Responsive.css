@@ -79,6 +79,9 @@ body {
 
 .Skill-Box > .img-class {
   margin-top: 15px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  /* mix-blend-mode: color; */
 }
 
 .Skill-Box > .text-class {
